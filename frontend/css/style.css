@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    padding: 20px;
+    background-color: #222;
+    color: white;
+}
+
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+/* Grade que receberá os cards */
+#lista-destinos {
+    display: grid;
+    grid-template-columns:
+        repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+    margin-top: 20px;
+}
+
+/* Aparência de cada destino */
+.destino-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #fafafa;
+}
+
+.destino-card h3 {
+    margin-top: 0;
+}
+
+.destino-card button {
+    padding: 10px 14px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#detalhes {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}

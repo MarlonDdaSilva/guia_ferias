@@ -1,0 +1,11 @@
+@baseUrl = http://localhost:8080/marlon/guia_ferias/backend/api
+### Lista todos os destinos
+GET {{baseUrl}}/destinos.php
+### Consulta a Praia
+GET {{baseUrl}}/destinos.php?id=1
+### Consulta o Acampamento
+GET {{baseUrl}}/destinos.php?id=3
+### Destino inexistente
+GET {{baseUrl}}/destinos.php?id=99
+### ID inválido
+GET {{baseUrl}}/destinos.php?id=abc
